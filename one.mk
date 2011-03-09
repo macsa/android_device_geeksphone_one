@@ -72,8 +72,8 @@ PRODUCT_PACKAGES += \
 TINY_TOOLBOX:=true
 
 # This is the list of locales included in AOSP builds
-PRODUCT_LOCALES := mdpi ru_RU
-PRODUCT_DEFAULT_LANGUAGE := en_GB
+PRODUCT_LOCALES := mdpi ru_RU ca_ES pt_PT
+PRODUCT_DEFAULT_LANGUAGE := es_ES
 
 $(call inherit-product, build/target/product/languages_small.mk)
 
